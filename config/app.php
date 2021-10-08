@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Me too'),
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +67,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    // 'timezone' => 'UTC',
+    'timezone' => 'Asia/Tokyo',
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +81,8 @@ return [
     |
     */
 
-    'locale' => 'en',
+    // 'locale' => 'en',
+    'locale' => 'ja',
 
     /*
     |--------------------------------------------------------------------------
@@ -90,7 +92,7 @@ return [
     | The fallback locale determines the locale to use when the current one
     | is not available. You may change the value to correspond to any of
     | the language folders that are provided through your application.
-    |
+    | デフォルトの設定が適応できないときの代わりの設定
     */
 
     'fallback_locale' => 'en',
@@ -103,10 +105,11 @@ return [
     | This locale will be used by the Faker PHP library when generating fake
     | data for your database seeds. For example, this will be used to get
     | localized telephone numbers, street address information and more.
-    |
+    | ダミーデータの日本語化
     */
 
-    'faker_locale' => 'en_US',
+    // 'faker_locale' => 'en_US',
+    'faker_locale' => 'ja_JP',
 
     /*
     |--------------------------------------------------------------------------
